@@ -1,0 +1,131 @@
+
+header{
+    background: url("./src/papel.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+  
+}
+.caixa{
+    width: 100%;
+    position: relative;
+    margin: auto auto;
+
+
+}
+header h1{
+    margin-left: 2%;
+}
+img{
+    border-radius: 300px;
+    width: auto auto auto auto;
+
+    
+}
+nav{
+    width: 40%;
+    height: 30px;
+    position: absolute;
+    top: 110px;
+    right: 0px;
+  
+   
+    
+
+
+}
+nav li{ 
+    display: inline-block;
+    margin: 0px 15px 0px 15px;
+    padding: 4.5px;
+    width: auto auto auto auto;
+   
+}
+
+nav a{
+   
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    text-align: center;
+}
+
+ nav a:hover {
+    color: rgb(146, 146, 0);
+    text-decoration: underline;
+}
+.produtos {
+    width: 940px;
+    margin: 10px auto;
+    right:50px;
+    
+}
+.produtos li{
+    display: inline-block;
+    text-align: center;
+    width:30%;
+    vertical-align: top;
+    padding: 50px 20px 50px 20px;
+    margin: 0px 1.5;
+    box-sizing:border-box;
+    border-color:black;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+
+
+    
+}
+
+.produtos li:hover{
+    border-color:  rgb(146, 146, 0);
+   
+
+}
+.produtos li:hover h2 {
+    border-color:  rgb(146, 146, 0);
+    font-size: 34px;
+    cursor: pointer;
+
+}
+.produtos li:hover p {
+    color:  rgb(146, 146, 0);
+    cursor: pointer;
+}
+.produtos li:active p {
+    color:  rgb(89, 232, 0);
+    cursor: pointer;
+}
+.produtos li:active{
+    border-color:  rgb(4, 222, 22);
+    cursor: pointer;
+}
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+.descricao {
+    font-size: 18px;
+   
+}
+.preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;    
+}
+
+
+footer {
+    background: rgb(10, 10, 10);
+    text-align: center;
+    padding: 20px 0px;  
+    background-size: 100%;
+    
+}
+.copyright {
+    color: aliceblue;
+    margin: 20px;
+    font-size: 13px;
+}
+

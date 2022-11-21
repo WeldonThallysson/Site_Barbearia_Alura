@@ -1,0 +1,151 @@
+
+header{
+    background: url("./src/papel.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+  
+}
+.caixa{
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+
+}
+header h1{
+    margin-left: 2%;
+}
+img{
+    border-radius: 300px;
+    width: auto auto auto auto;
+
+    
+}
+nav{
+    width: 40%;
+    height: 20px;
+    position: absolute;
+    top: 110px;
+    right: 0px;
+  
+   
+    
+
+
+}
+nav li{ 
+    display: inline-block;
+    margin: 0px 15px 0px 15px;
+    padding: 4.5px;
+   
+}
+
+nav a{
+   
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    text-align: center;
+}
+
+ nav a:hover {
+    color: rgb(146, 146, 0);
+    text-decoration: underline;
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
+    margin-top: 2%;
+}
+
+form {
+    margin: 40px ;
+}
+
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+.inputPadrao{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+.check-box {
+    margin: 20px 0px;
+}
+
+
+
+
+
+.descricao {
+    font-size: 18px;
+   
+}
+.preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;    
+}
+
+
+footer {
+    background: rgb(10, 10, 10);
+    text-align: center;
+    padding: 20px 0px;  
+    background-size: 30%;
+    
+}
+.copyright {
+    color: aliceblue;
+    margin: 20px;
+    font-size: 13px;
+}
+
+.enviar {
+    width:40%;
+    padding: 15px 0;
+    background: orange;
+    color: white;
+    font-weight: bolder;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 5%;
+    transition: 0.5s all;
+    cursor: pointer;
+}
+.enviar:hover {
+    background: darkorange;
+
+    transform: scale(1.2);
+    
+}
+.conteiner-tabela {
+    margin-bottom: 5%;
+}
+table {
+    margin: 20px 0 40px;
+  
+}
+
+table thead {
+    background-color: rgb(146, 85, 0);
+    color: rgb(255, 230, 2);
+    font-weight: bold;
+    border: 2px solid #000000;
+}
+
+table td,th{
+    border: 2px solid #000000;
+    padding: 8px 15px ;
+    
+}
+
+
+
